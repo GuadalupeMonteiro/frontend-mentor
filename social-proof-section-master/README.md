@@ -10,6 +10,9 @@ Usuários deverão ser capazes de:
 
 ### Screenshot
 
+![screenshot-social-proof](https://user-images.githubusercontent.com/113217529/215338589-37fbebf0-6e70-4913-9704-33543d65bd31.png)
+
+
 ### Construído com
 
 - Marcação HTML5 semântica
@@ -41,6 +44,9 @@ Users should be able to:
 - View the optimal layout for the section depending on their device's screen size
 
 ### Screenshot
+
+![screenshot-social-proof](https://user-images.githubusercontent.com/113217529/215338589-37fbebf0-6e70-4913-9704-33543d65bd31.png)
+
 
 ### Built with
 
