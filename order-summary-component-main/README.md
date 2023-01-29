@@ -10,7 +10,7 @@ Usuários deverão ser capazes de:
 
 ### Screenshot
 
-https://github.com/GuadalupeMonteiro/frontend-mentor/issues/1#issue-1561347153
+![challenge-summary](https://user-images.githubusercontent.com/113217529/215338176-e64264bc-aa41-414c-b5b4-6107eefb864e.png)
 
 ### Construído com
 
@@ -50,7 +50,7 @@ Users should be able to:
 
 ### Screenshot
 
-https://github.com/GuadalupeMonteiro/frontend-mentor/issues/1#issue-1561347153
+![challenge-summary](https://user-images.githubusercontent.com/113217529/215338176-e64264bc-aa41-414c-b5b4-6107eefb864e.png)
 
 ### Built with
 
