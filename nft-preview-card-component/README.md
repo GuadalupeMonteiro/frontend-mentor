@@ -9,10 +9,6 @@ Os usuários devem ser capazes de:
 - Ver o layout ideal dependendo do tamanho da tela do dispositivo
 - Ver efeitos hover para elementos interativos
 
-### Screenshot
-
-
-
 ### Construído com
 
 - HTML5
@@ -45,10 +41,6 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
-
-
-
 ### Built with
 
 - HTML5 
@@ -64,6 +56,12 @@ I learned different ways to use the hover property. First I applied the after pr
 ### Continued development
 
 Improve responsive code
+
+###Screenshot
+
+![card-component](https://user-images.githubusercontent.com/113217529/215537836-067e6f95-44e7-4a4b-b710-4226d0c93b05.png)
+
+![card-component-hover](https://user-images.githubusercontent.com/113217529/215537345-c9723719-5025-4b59-abdc-6b80971afac9.png)
 
 ## Author
 
