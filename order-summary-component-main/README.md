@@ -30,7 +30,7 @@ Futuramente quero melhorar o layout para dispositivos móveis
 ### Recursos úteis
 
 - [resource 1](https://www.youtube.com/watch?v=KbjLtEgmZ_E) - Me ajudou a entender flexbox
-- [resource 1](https://www.youtube.com/watch?v=LUX2qkodA0c) - Me ajudou com a propriedade transition
+- [resource 2](https://www.youtube.com/watch?v=LUX2qkodA0c) - Me ajudou com a propriedade transition
 
 ## Autor
 
@@ -69,14 +69,9 @@ In the future I want to improve the layout for mobiles with flexbox
 ### Useful resources
 
 - [resource 1](https://www.youtube.com/watch?v=KbjLtEgmZ_E) - It helped me to understand flexbox
-- [resource 1](https://www.youtube.com/watch?v=LUX2qkodA0c) - It helped me with transition property
+- [resource 2](https://www.youtube.com/watch?v=LUX2qkodA0c) - It helped me with transition property
 
 ## Author
 
 - Github - [GuadalupeMonteiro](https://github.com/GuadalupeMonteiro)
-
-
-
-
-
-
+- Linkedin - [Guadalupe Monteiro](https://www.linkedin.com/in/guadalupe-monteiro-015314249/)
