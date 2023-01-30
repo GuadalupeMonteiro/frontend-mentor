@@ -65,4 +65,4 @@ Users should be able to:
 ## Author
 
 - Github - [GuadalupeMonteiro](https://github.com/GuadalupeMonteiro)
-
+- Linkedin - [Guadalupe Monteiro](https://www.linkedin.com/in/guadalupe-monteiro-015314249/)
