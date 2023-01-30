@@ -66,5 +66,5 @@ Improve responsive code
 ## Author
 
 - Github - [GuadalupeMonteiro](https://github.com/GuadalupeMonteiro)
-- Linkedin - [Guadalupe Monteiro](linkedin.com/in/guadalupe-monteiro-silva-015314249)
+- Linkedin - [Guadalupe Monteiro](https://www.linkedin.com/in/guadalupe-monteiro-015314249/)
 
