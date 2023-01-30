@@ -57,7 +57,7 @@ I learned different ways to use the hover property. First I applied the after pr
 
 Improve responsive code
 
-###Screenshot
+### Screenshot
 
 ![card-component](https://user-images.githubusercontent.com/113217529/215537836-067e6f95-44e7-4a4b-b710-4226d0c93b05.png)
 
