@@ -8,11 +8,6 @@ Usuários deverão ser capazes de:
 
 - Ver o layout ideal para a seção, dependendo do tamanho da tela do dispositivo
 
-### Screenshot
-
-![screenshot-social-proof](https://user-images.githubusercontent.com/113217529/215338589-37fbebf0-6e70-4913-9704-33543d65bd31.png)
-
-
 ### Construído com
 
 - Marcação HTML5 semântica
@@ -43,10 +38,6 @@ Users should be able to:
 
 - View the optimal layout for the section depending on their device's screen size
 
-### Screenshot
-
-![screenshot-social-proof](https://user-images.githubusercontent.com/113217529/215338589-37fbebf0-6e70-4913-9704-33543d65bd31.png)
-
 
 ### Built with
 
@@ -61,6 +52,16 @@ Users should be able to:
 ### Useful resources
 
 - [resource 1](https://www.youtube.com/watch?v=LbY_y-CKlBA&t=194s) - It helped me understand align-self
+
+### Screenshot
+
+![screenshot-social-proof](https://user-images.githubusercontent.com/113217529/215338589-37fbebf0-6e70-4913-9704-33543d65bd31.png)
+
+mobile: 
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/113217529/215542266-264880f4-67eb-49d4-8342-a4454b46e6b0.png">
+</div>
 
 ## Author
 
