@@ -192,8 +192,8 @@ body {
 
 }
 
-    @media screen and (max-width: 160px) {
-        .annual-plan-item p:first-child {
-            margin-top: 22%;
-        }
-    }
+@media screen and (max-width: 160px) {
+   .annual-plan-item p:first-child {
+       margin-top: 22%;
+   }
+}
