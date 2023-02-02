@@ -51,6 +51,8 @@ I learned how to use Grid. Also, to keep the file organized, two css files were 
 
 ### Veja o resultado final / see the final result: 
 
+https://guadalupemonteiro.github.io/frontend-mentor/four-card-feature-section/
+
 ### Screenshot
 
 ![four-card-screenshot](https://user-images.githubusercontent.com/113217529/216400871-5f2841ee-59cd-462e-bbc5-5a97865568a5.png)
