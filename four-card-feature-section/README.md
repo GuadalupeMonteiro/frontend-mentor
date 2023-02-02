@@ -49,9 +49,15 @@ I learned how to use Grid. Also, to keep the file organized, two css files were 
 
 - [resource 1](https://www.youtube.com/watch?v=y207S4oaBQ4&t=77s) - It helped me aligning the cards
 
+### Veja o resultado final / see the final result: 
+
 ### Screenshot
 
+![four-card-screenshot](https://user-images.githubusercontent.com/113217529/216400871-5f2841ee-59cd-462e-bbc5-5a97865568a5.png)
 
+<div align="center"> 
+   <img src="https://user-images.githubusercontent.com/113217529/216401039-8960c030-0c4d-4aaa-b6e6-fc2c43d1f511.png"> 
+</div>
 
 ## Autor / author
 
