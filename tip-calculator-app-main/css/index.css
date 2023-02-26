@@ -1,0 +1,291 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: var(--LightGrayishCyan);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin-top: 2rem;
+}
+
+#container {
+    background-color: var(--White);
+    padding: .7rem;
+    border-radius: 1rem;
+    width: 80%;
+}
+
+#left-content {
+    width: 90%;
+    margin: 0 auto .4rem;
+}
+
+h2 {
+    margin: 0 0 .4rem .4rem;
+}
+
+input {
+    margin: 0 0 .4rem .2rem;
+}
+
+input:not(#custom-tip) {
+    background-color: var(--LightGrayishCyan);
+    border: none;
+    border-radius: .3rem;
+    outline-color: var(--StrongCyan);
+    text-align: right;
+    color: var(--VeryDarkCyan);
+    padding: .5rem;
+    width: 96%;
+    position: relative;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#bill {
+    background-image: url(../images/icon-dollar.svg);
+}
+
+#bill, #number-people {
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-position-x: 5%;
+}
+
+#number-people {
+    background-image: url(../images/icon-person.svg);
+}
+
+#tips-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: center;
+    margin: 1rem auto;
+}
+
+button.tips {
+    background-color: var(--VeryDarkCyan);
+    color: var(--VeryLightGrayishCyan);
+    width: 84%;
+    margin: .3rem;
+    padding: .5rem;
+    border-radius: .2rem;
+    border: none;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+button:hover{
+    background-color: var(--LightGrayishCyan);
+    color: var(--VeryDarkCyan);
+    transition: all .3s ease;
+}
+
+button:active {
+    background-color: var(--StrongCyan);
+}
+
+button:focus {
+    outline-color: var(--VeryDarkCyan);
+    background-color: var(--LightGrayishCyan);
+    color: var(--VeryDarkCyan);
+}
+
+#custom-tip {
+    background-color: var(--LightGrayishCyan);
+    border: none;
+    width: 84%;
+    height: 78%;
+    margin: .3rem;
+    border-radius: .2rem;
+    outline-color: var(--VeryDarkCyan);
+    text-align: right;
+    color: var(--VeryDarkCyan);
+    padding: .1rem;
+}
+
+#right-content {
+    background-color: var(--VeryDarkCyan);
+    border-radius: .7rem;
+    padding: .3rem 1.2rem;
+    margin: 1.5rem auto .5rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.value {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.text-content h2 {
+    color: var(--VeryLightGrayishCyan);
+    margin-top: 1.5rem;
+}
+
+#tip-amount, #total {
+    color: var(--StrongCyan);
+    margin-top: 1.5rem;
+    align-self: center;
+    font-size: 2rem;
+}
+
+#btn-reset {
+    background-color: var(--StrongCyan);
+    border: none;
+    outline-color: var(--LightGrayishCyan);
+    width: 80%;
+    padding: .5rem;
+    margin: 2rem auto;
+    border-radius: .3rem;
+    color: var(--VeryDarkCyan);
+    text-transform: uppercase;
+    align-items: center;
+}
+
+#btn-reset:hover {
+    background-color: var(--LightGrayishCyan);
+    color: var(--VeryDarkCyan);
+    transition: all .3s ease;
+}
+
+#btn-reset:active {
+    background-color: var(--White);
+    color: var(--VeryDarkCyan);
+}
+
+input:hover,
+.tips:hover,
+#btn-reset:hover {
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 0.688rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--StrongCyan);
+}
+
+.attribution a:hover {
+    color: var(--VeryDarkCyan);
+    transition: all 2s ease;
+}
+
+a:focus {
+    outline: none;
+    border-bottom: 2px solid var(--StrongCyan);
+}
+
+#error-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.error, #error-people{
+    color: hsla(22, 90%, 42%, 0.921);
+    margin: 0 1rem .3rem .3rem;
+    align-self: flex-end;
+    display: none;
+    font-size: .8rem;
+}
+
+@media screen and (max-width:768px) {
+    #container {
+        justify-content: center;
+    }
+
+    #tips-container {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    button.tips,
+    #custom-tip {
+        width: 88%;
+        text-align: center;
+    }
+
+    .value {
+        flex-direction: column;
+    }
+
+    #tip-amount, #total {
+        margin-top: .5rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    #container,
+    #right-content {
+        display: flex;
+        gap: 1rem;
+        padding: 1rem 1.5rem 1rem 1rem;
+    }
+
+    #left-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #tips-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: flex-start;
+        align-content: flex-start;
+        grid-column-gap: -2.5rem;
+        grid-row-gap: .5rem;
+    }
+
+    .tips {
+        width: 85%;
+    }
+
+    #right-content {
+        max-height: 23rem;
+    }
+
+    #btn-reset {
+        position: absolute;
+        top: 70%;
+        right: 10%;
+    }
+}

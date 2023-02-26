@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <title>Tip calculator app</title>
+</head>
+
+<body>
+  <section>
+    <h1>spli<br>tter</br></h1>
+
+    <div id="container">
+      <div id="left-content">
+        <div id="error-container">
+          <h2 class="mrg-top-1-5rem ">Bill</h2>
+          <span class="error" id="error-bill">Only valid numbers</span>
+          <input type="number" name="bill" id="bill">
+        </div>
+
+        <h2 class="mrg-top-1-5rem ">Select Tip %</h2>
+        <div id="tips-container">
+          <button id="tip5" class="tips">5%</button>
+          <button id="tip10" class="tips">10%</button>
+          <button id="tip15" class="tips">15%</button>
+          <button id="tip25" class="tips">25%</button>
+          <button id="tip50" class="tips">50%</button>
+          <input type="number" name="custom-tip" id="custom-tip" class="tips" placeholder="Custom">
+          <span class="error" id="error-custom">Only valid numbers</span>
+        </div>
+
+        <div id="error-container">
+          <h2 class="mrg-top-1-5rem">Number of People</h2>
+          <span class="error" id="error-people">Only valid numbers</span>
+          <input type="number" name="number-people" id="number-people">
+        </div>
+      </div>
+
+      <div id="right-content">
+        <div class="value">
+          <div class="text-content">
+            <h2>Tip Amount</h2>
+            <p>/ person</p>
+          </div>
+          <span id="tip-amount">$0.00</span>
+        </div>
+
+        <div class="value">
+          <div class="text-content">
+            <h2>Total</h2>
+            <p>/ person</p>
+          </div>
+          <span id="total">$0.00</span>
+        </div>
+        <button id="btn-reset">Reset</button>
+      </div>
+    </div>
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/GuadalupeMonteiro">Guadalupe Monteiro</a>.</p>
+    </div>
+  </section>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
